@@ -6,6 +6,7 @@ public class Main {
         Car car1 = new Car("Civic", "Honda", 2022, 23500.0, "Blue", 5);
         Car car2 = new Car("Civic", "Honda", 2022, 23500.0, "Blue", 5);
 
+
         System.out.println("car1: " + car1);
         System.out.println("car2: " + car2);
 
