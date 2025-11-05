@@ -1,19 +1,23 @@
 package com.example.cars;
 
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
-@NoArgsConstructor
+@Getter
+@Setter
+@ToString
 @AllArgsConstructor
-
-
+@NoArgsConstructor
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Car {
     private String model;
     private String brand;
     private int year;
     private double price;
     private String color;
-    private int quantity;
+    private int seats;
 }
